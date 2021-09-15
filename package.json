@@ -1,4 +1,5 @@
-{ "name":"cookie-stand-admin",
+{
+  "name": "cookie-stand-admin",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -6,9 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.4",
+    "jsonwebtoken": "^8.5.1",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
