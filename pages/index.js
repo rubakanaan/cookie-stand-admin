@@ -6,7 +6,7 @@ import LoginForm from "../components/LoginForm"
 import useResource from '../hooks/useResource'
 export default function Home() {
   const { user, login, logout } = useAuth();
-  const { resources, loading, createResource, deleteResource } = useResource();
+  // const { resources, loading, createResource, deleteResource } = useResource();
 
   return (
     <div className="bg-green-50 ">
