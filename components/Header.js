@@ -11,7 +11,8 @@ export default function Header(props) {
             <div className="flex justify-end gap-2">
                 {user && (
                     <>
-                        <button onClick={logout} className="w-20 h-6 text-center bg-green-700 rounded ">{user.username }Logout</button>
+                        {console.log(user)}
+                        <button onClick={logout} className="w-20 h-6 text-center bg-green-700 rounded ">Logout</button>
                     </>
                )}
             <Link href="/Overview" >
